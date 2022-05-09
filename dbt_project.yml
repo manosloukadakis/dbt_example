@@ -37,4 +37,4 @@ models:
     staging:
       +enabled: true
       +materialized: table
-      +schema: stg_northwind
+      +schema: northwind
