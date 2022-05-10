@@ -1,0 +1,13 @@
+version: 2
+models: 
+  - name: stg_customer
+    description: staging customers table
+
+    columns:
+      - name: id
+        description: id column name
+  - name: stg_employee
+    description: staging employees
+    columns:
+      - name: id
+      - name: company
