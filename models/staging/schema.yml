@@ -11,3 +11,10 @@ models:
     columns:
       - name: id
       - name: company
+  - name: orders_status_full
+    description: staging orders with status 
+    columns:
+      - name: order_id
+      - name: employee_id
+      - name: customer_id
+      - name: status_name

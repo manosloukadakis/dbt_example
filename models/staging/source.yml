@@ -4,6 +4,8 @@ sources:
     schema: dl_northwind
     tables: 
       - name: customer
+        description: Customer table
+        tags: ["raw"]
       - name: employee_privileges
       - name: employees
       - name: inventory_transaction_types
